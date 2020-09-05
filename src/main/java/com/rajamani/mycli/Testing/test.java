@@ -16,6 +16,7 @@ public class test {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\rajam\\Downloads\\chromedriver_win32 (1)\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get(url);
+        System.out.println("Going to sleep for 2 secs");
         Thread.sleep(2000);
         try {
             Robot robot = new Robot();
